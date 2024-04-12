@@ -1,8 +1,9 @@
 ## This is a simple project that locates user location and also searches a location based on a given address. 
  Utilizes APIs: 
   1. for map - leaflet
-  2. for geocoding and api key - Geoapify
- Also uses advanced concepts utilizing webpack, several loaders and plugins (like babel, css loader, html plugins).
+  2. for geocoding and api key - Geoapify  
+ 
+ ### Also uses advanced concepts utilizing webpack, several loaders and plugins (like babel, css loader, html plugins).
 
 # USAGE: 
 Fork then  
