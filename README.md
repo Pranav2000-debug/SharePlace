@@ -1,4 +1,4 @@
-## This is a simple project that locates user location and also searches a location based on a given address. 
+## This is a simple project that locates user location using geocoding and reverse geocoding. 
  Utilizes APIs: 
   1. for map - leaflet
   2. for geocoding and api key - Geoapify  
