@@ -1,7 +1,9 @@
+// USE YOUR OWN GEOAPIFY API KEYS. YOU CAN GENERATE YOUR API KEYS FROM GEOAPIFY.COM . 
+
 export async function getAddressFromCoords(coords) {
   try {
     const response = await fetch(
-      `https://api.geoapify.com/v1/geocode/reverse?lat=${coords.lat}&lon=${coords.lon}&format=json&apiKey=9095f4efd2fd40bd9a72f32ecacd8785`
+      `https://api.geoapify.com/v1/geocode/reverse?lat=${coords.lat}&lon=${coords.lon}&format=json&apiKey="USE_YOUR_GEOAPIFY_API_KEY"`
     );
     if (!response.ok) {
       throw new Error("error fetchint data. geoapify sucks");
@@ -24,7 +26,7 @@ export async function getCoordsFromAddress(address) {
   const urlAddress = encodeURI(address);
   try {
     const response = await fetch(
-      `https://api.geoapify.com/v1/geocode/search?text=${urlAddress}&format=json&apiKey=9095f4efd2fd40bd9a72f32ecacd8785`,
+      `https://api.geoapify.com/v1/geocode/search?text=${urlAddress}&format=json&apiKey="USE_YOUR_GEOAPIFY_API_KEY"`,
       requestOpt
     );
     if (!response.ok) {
