@@ -25,10 +25,8 @@ In terminal (text editors) run.
 Use buttons on the page for interaction.  
 NOTE: to open the searched address which gets copied to clipboard, paste that url in the web browser search bar.
 
-# ISSUES: 
-  1. geolocation even though enableHighAccuracy is set, it gets the wrong coordinates which is several meters away from current exact location. (it works sometimes)  
-  Is this a behaviour normal or can this be fixed?
-  2. Workarounds of certain code practices and functonalities and any wrong configs of webpack files if found please do reach out as I'm still learning :) (email: pranav.nyx410@gmail.com) 
+
+Workarounds of certain code practices and functonalities and any wrong configs of webpack files if found please do reach. (email: pranav.nyx410@gmail.com) 
 
 
 
