@@ -6,7 +6,7 @@ export async function getAddressFromCoords(coords) {
       `https://api.geoapify.com/v1/geocode/reverse?lat=${coords.lat}&lon=${coords.lon}&format=json&apiKey="USE_YOUR_GEOAPIFY_API_KEY"`
     );
     if (!response.ok) {
-      throw new Error("error fetchint data. geoapify sucks");
+      throw new Error("error fetchint data.");
     }
     const data = await response.json();
     if (!data.results || data.results.length === 0) {
